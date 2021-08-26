@@ -3,5 +3,22 @@ h1{
     font-size: 22px;
 }
 body{
-    background-color: darkred;
+    background-color: #b58338;
+    color:#e3c3cb;
+}
+
+.Programcolor{
+    color: blueviolet;
+    background-color: white;
+    text-align: center;
+}
+
+.tankar{
+    text-align: right;
+}
+
+.ommig{
+    border-style:solid;
+    border-width: medium;
+    border-color: #ff0040;
 }
