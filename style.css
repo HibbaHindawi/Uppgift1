@@ -22,3 +22,13 @@ body{
     border-width: medium;
     border-color: #ff0040;
 }
+
+.container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 30% 50% 10% auto;
+    grid-template-areas: 
+    "header header header header"
+    "main main sidebar sidebar"
+    "main main footer footer";
+}
